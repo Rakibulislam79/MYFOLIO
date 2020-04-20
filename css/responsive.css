@@ -1,0 +1,212 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*services_section style start*/
+
+    #services .service_text .head_text {
+        text-align: center;
+    }
+
+    #services .service_text .head_text p {
+        padding: 15px 45px 50px 45px;
+    }
+
+    #services .service_image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    /*services_section style end*/
+
+    /*works_section style start*/
+
+    #works .work_head p {
+        padding: 0 45px;
+    }
+
+    /*works_section style end*/
+
+    /*contact_section style start*/
+
+    #contact .contact_head p {
+        padding: 0 45px;
+    }
+
+    #contact .contact_form .input input {
+        width: 400px;
+    }
+
+    #contact .contact_form .input textarea {
+        width: 550px;
+    }
+
+    /*contact_section style end*/
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+
+    /*banner_section style start*/
+
+    #banner .banner_overlay .banner_text h1 {
+        font-size: 25px;
+    }
+
+    #banner .banner_overlay .banner_text h2 {
+        font-size: 60px;
+    }
+
+    /*banner_section style end*/
+
+    /*about_section style start*/
+
+    #about .about_text p {
+        padding: 0 50px;
+    }
+
+    #about .about_part {
+        padding-top: 0;
+    }
+
+    /*about_section style end*/
+
+    /*services_section style start*/
+
+    #services .service_text .head_text {
+        text-align: center;
+    }
+
+    #services .service_text .head_text p {
+        padding: 0 30px;
+    }
+
+    #services .service_image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #services .service_text .body_text .text_part p {
+        padding-right: 40px;
+    }
+
+    /*services_section style end*/
+
+    /*works_section style start*/
+
+    #works .work_head p {
+        padding: 0 30px;
+    }
+
+    /*works_section style end*/
+
+    /*contact_section style start*/
+
+    #contact .contact_head {
+        padding: 0;
+    }
+
+    #contact .contact_head p {
+        padding: 0 30px;
+    }
+
+    #contact .contact_form .input input {
+        width: 350px;
+    }
+
+    #contact .contact_form .input textarea {
+        width: 500px;
+    }
+
+    /*contact_section style end*/
+
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*_section style start*/
+
+    #banner .banner_overlay .banner_text {
+        padding-top: 170px;
+    }
+
+    #banner .banner_overlay .banner_text h1 {
+        font-size: 15px;
+    }
+
+    #banner .banner_overlay .banner_text h2 {
+        font-size: 50px;
+    }
+
+    /*_section style end*/
+
+    /*about_section style start*/
+
+    #about .about_text p {
+        padding: 0;
+    }
+
+    /*about_section style end*/
+
+    /*services_section style start*/
+
+    #services .service_text {
+        text-align: center;
+    }
+
+    #services .service_text .body_text .text_part {
+        padding: 25px 0 25px 0;
+    }
+
+    #services .service_text .body_text .text_part p {
+        padding: 0 50px;
+    }
+
+    #services .service_image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /*services_section style end*/
+
+    /*works_section style start*/
+
+    #works .work_head p {
+        padding: 0;
+    }
+
+    /*works_section style end*/
+
+    /*contact_section style start*/
+
+    #contact .contact_head {
+        padding: 0;
+    }
+
+    #contact .contact_head h2 {
+        font-size: 40px;
+    }
+
+    #contact .contact_head p {
+        padding: 0;
+    }
+
+    #contact .contact_form .input input {
+        width: 200px;
+    }
+
+    #contact .contact_form .input textarea {
+        width: 250px;
+    }
+
+    /*contact_section style end*/
+
+}
